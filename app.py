@@ -2,6 +2,8 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+kg_test_var = None
+
 @app.route('/')
 def home():
     return render_template('index.html', title='Flask Demo')
