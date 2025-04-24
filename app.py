@@ -6,6 +6,9 @@ kg_test_var = None
 
 @app.route('/')
 def home():
+    """
+    This is a test docstring to demo whether the KG can read docstrings
+    """
     return render_template('index.html', title='Flask Demo')
 
 if __name__ == '__main__':
